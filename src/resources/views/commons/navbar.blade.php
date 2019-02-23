@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="nav-bar">
       <ul class="navbar-nav mr-auto"></ul>
       <ul class="navbar-nav">
-        <li class="nav-item"><a href="#" class="nav-link">Signup</a></li>
+        <li>{!! link_to_route('signup.get', 'Signup', [], ['class' => 'btn btn-lg btn-primary']) !!}</li>
         <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
       </ul>
     </div>
